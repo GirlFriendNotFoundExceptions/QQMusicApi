@@ -10,7 +10,7 @@
     "start:docker": "docker build -t qqmusic:1.0 . && docker run --name qqmusic -p 8888:80 -d qqmusic:1.0",
     "test": "jest"
   },
-  "main": "./bin/www",
+  "main": "./node/index.js",
   "files": [
     "util/",
     "node/",
